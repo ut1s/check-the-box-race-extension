@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Check the boxes!",
+    "version": "0.3",
+    "description": "Check all the boxes easily on checkboxrace.com",
+    "author": "UTIS",
+    "content_scripts": [
+        {
+          "js": ["checks.js"],
+          "matches": ["https://checkboxrace.com/", "https://its-a-mia.github.io/SunsetSurfer/"]
+        }
+    ],
+    "action": {
+      "default_title": "Check the Boxes!"
+    }
+}
