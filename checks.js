@@ -1,11 +1,9 @@
+$x = "";
+
 function check() {
-  chrome.tabs.executeScript({
-    code: 'for(let i = 1; i < 101; i++){$x(`/html/body/div[1]/input[${i}]`)[0].click()}'
-  });
-/*
   for(let i = 1; i < 101; i++){
     $x(`/html/body/div[1]/input[${i}]`)[0].click()
-  }*/
+  }
 };
 
 function check2() {
@@ -35,6 +33,7 @@ var addEvent = document.addEventListener ? function(target,type,action){
 }
 
 addEvent(document,'keydown',function(e){
+  /* space */
   e = e || window.event;
   var key = e.which || e.keyCode;
   if(key===32){
