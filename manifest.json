@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Check the boxes!",
-    "version": "0.3",
+    "version": "1.0",
     "description": "Check all the boxes easily on checkboxrace.com",
     "author": "UTIS",
     "content_scripts": [
@@ -10,7 +10,15 @@
           "matches": ["https://checkboxrace.com/", "https://its-a-mia.github.io/SunsetSurfer/"]
         }
     ],
+    "icons": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "64": "images/icon64.png",
+      "128": "images/icon128.png"
+    },
     "action": {
+      "default_icon": "images/icon.png",
+      "default_popup": "popup.html",
       "default_title": "Check the Boxes!"
     }
 }
