@@ -1,3 +1,5 @@
+<img src="images/icon.png" alt="Check the boxes' icon" title="Check the boxes' icon" />
+
 # Check box race extension
 It's like a cheat... but shhh
 
