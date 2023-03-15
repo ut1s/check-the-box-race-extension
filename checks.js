@@ -1,6 +1,7 @@
 console.clear()
 console.log("Let's clicking!");
 console.log("If this doesn't work try refreshing the page or make an issue on the GitHub page! :)");
+console.log("Check popup window for more information!");
 console.log("Have fun!");
 
 
